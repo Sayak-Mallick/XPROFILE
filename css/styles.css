@@ -40,6 +40,17 @@ body {
   cursor: pointer;
 }
 
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 6px;
+  margin: 10px auto;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
 .social-media {
   display: flex;
   flex-direction: row;
