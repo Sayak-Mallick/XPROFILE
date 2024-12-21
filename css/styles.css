@@ -33,11 +33,24 @@ body {
 }
 
 .menu-icon , .setting-icon {
-  width: 25px;
+  width: 20px;
 }
 
-.profile-pic {
-  width: 150px;
-  padding: 6px;
-  border-radius: 50%;
+.menu-icon:hover, .setting-icon:hover {
+  cursor: pointer;
 }
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.social-media img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
