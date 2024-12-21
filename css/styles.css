@@ -54,3 +54,19 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+  .profile-box {
+    padding: 40px 50px;
+  }
+
+  .icons {
+    margin: -20px -30px 20px -30px;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+  
+}
+
+
